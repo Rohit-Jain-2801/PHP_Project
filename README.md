@@ -1,6 +1,7 @@
 # PHP_Project
 TE-IT
 
+<br/>
 <b>Pre-requisite-</b>
 <ul>
   <li>XAMPP Software</li>
@@ -10,3 +11,5 @@ TE-IT
   </ul>
   <li>Composer</li>
 </ul>
+<br/>
+<b>Settings</b>
