@@ -2,7 +2,7 @@
 TE-IT
 
 <br/>
-<p>Project is based on E-commerce website used for renting products online!</p>
+<b>Project is based on E-commerce website used for renting products online!</b>
 <br/>
 <b>Pre-requisite-</b>
 <ul>
@@ -49,6 +49,11 @@ TE-IT
   <li>Profile Page</li>
   <li>Categories Page</li>
   <li>Product Page</li>
-  <li>Wishlist Page<li>
-  <li>Cart Page<li>
+  <li>Wishlist Page</li>
+  <li>Cart Page</li>
+</ul>
+<br/>
+<b>Future Scope</b>
+<ul>
+  <li></li>
 </ul>
