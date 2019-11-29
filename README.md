@@ -27,13 +27,14 @@ TE-IT
     <li>display_errors=Off</li>
     <li>post_max_size=1280M</li>
     <li>upload_max_filesize=1280M</li>
-    <li>sendmail_path = "\"..\Xampp\sendmail\sendmail.exe\" -t" (<b>.. has to be replaced by whole path</b>)</li>
+    <li>sendmail_path = "\"...\Xampp\sendmail\sendmail.exe\" -t" (<b>... has to be replaced by whole path</b>)</li>
   </ul>
   <li>Changes in sendmail.ini file (<b>Can be accessed through Xampp/sendmail/sendmail.ini</b>)</li>
   <ul>
     <li>smtp_server=smtp.gmail.com (<b>for gmail</b>)</li>
     <li>smtp_port=587 (<b>for gmail</b>)</li>
-    <li>auth_username=.. (<b>.. has to be replaced by your email</b>)</li>
-    <li>auth_password=.. (<b>.. has to be replaced by your password</b>)</li>
+    <li>auth_username=... (<b>... has to be replaced by your email</b>)</li>
+    <li>auth_password=... (<b>... has to be replaced by your password</b>)</li>
   </ul>
+  <li>Import rentalservice.sql in localhost/phpmyadmin</li>
 </ul>
