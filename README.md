@@ -15,7 +15,7 @@ TE-IT
 <b>Settings</b>
 <ul>
   <li><b>Put all the files in the Xampp/htdocs folder</b> (Can be accessed as url: localhost/Landing_Page/home.php)</li>
-  <li><b>Changes in my.ini file (<b>Can be accessed through Xampp Control Panel MySQL-Config or Xampp/mysql/bin/my.ini</b>)</li>
+  <li><b>Changes in my.ini file</b> (Can be accessed through Xampp Control Panel MySQL-Config or Xampp/mysql/bin/my.ini)</li>
   <ul>
     <li>max_allowed_packet = 64M</li>
     <li>innodb_log_file_size = 256M</li>
