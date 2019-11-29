@@ -33,8 +33,8 @@ TE-IT
   </ul>
   <li><b>Changes in sendmail.ini file</b> (Can be accessed through Xampp/sendmail/sendmail.ini)</li>
   <ul>
-    <li>smtp_server=smtp.gmail.com (<b>for gmail</b>)</li>
-    <li>smtp_port=587 (<b>for gmail</b>)</li>
+    <li>smtp_server=smtp.gmail.com (<b>for Gmail</b>)</li>
+    <li>smtp_port=587 (<b>for Gmail</b>)</li>
     <li>auth_username=... (<b>... has to be replaced by your email</b>)</li>
     <li>auth_password=... (<b>... has to be replaced by your password</b>)</li>
   </ul>
@@ -56,7 +56,7 @@ TE-IT
 <b>Future Scope</b>
 <ul>
   <li>Mail System (using PHPMailer/SendGrid instead of PHP mail function)</li>
-  <li>SMS System (using Way2SMS API)</li>
+  <li>SMS System (using Way2SMS/TextLocal API)</li>
   <li>Google Login System</li>
   <li>Payment System (using PayPal API)</li>
   <li>Realtime Notifications (using Pusher & toastr.js)</li>
