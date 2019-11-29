@@ -1,0 +1,118 @@
+/* for shadow effect */
+#tbl{
+    border: 1px solid;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid #4d069e; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip */
+.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* Style the back side */
+.flip-card-back {
+    /* background-color: #bbb; */
+    transform: rotateY(180deg);
+}
+
+/* images options */
+.col-4 img:hover{
+    /* -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75); */
+    /* -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75); */
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+/* error label for unacceptable dates */
+#err{
+    /* display: none; */
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* properties for width more than .. */
+@media (min-width: 1100px) {
+    /* left side */
+    .left{
+        position: fixed;
+        width: 50%;
+        margin-left: 1rem;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    /* right side */
+    .right {
+        float: right;
+        width: 50%;
+        margin-top: 110px;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+/* properties for width less than .. */
+@media (max-width: 1100px) {
+    /* left side */ 
+    .left{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* right side */
+    .right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer{
+        display: block;
+    }
+}
+
+/* + indicates just after & ::after indicates procede after */
+/* for cross sign */
+input:invalid + span::after, input:invalid + var::after {
+    /* content: '✖'; */
+    content: '\2717';
+}
+
+/* for tick mark sign */
+input:valid + span::after, input:valid + var::after {
+    /* content: '✓'; */
+    content: '\2713';
+}
+
+img{
+    max-width: 100%;
+    height: 120px;
+}

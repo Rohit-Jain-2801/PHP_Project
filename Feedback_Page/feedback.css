@@ -1,0 +1,105 @@
+body {
+    margin:  30px auto;
+    width: 50%;
+    max-width: 750px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 145%;
+    border: 2px solid lightgray;
+}
+
+header {
+    text-align: center;
+    background-color: #3377ff;
+    /*background-image: url(https://i.postimg.cc/GtTcgJRK/green-dust-scratch.png);*/
+    padding: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 1200;
+}
+
+p {
+    color: rgba(31, 31, 31, 0.527);
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.95;
+    padding: 2% 10% 4% 10%;
+}
+
+#toptext {
+    margin-top: 15px;
+}
+
+#toptext2 {
+    margin-top: 20px;
+}
+
+.leftside {
+    display: inline-block;
+    text-align: right;
+    width: 45%;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.rightside {
+    display: inline-block;
+    text-align: left;
+    width: 45%;
+    margin-left: 8px;
+}
+
+.input-field {
+    height: 20px;
+    width: 280px;
+    padding: 10px 5px;
+    margin: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+.question {
+    margin-top: 9px;
+    margin-left: -35px;
+    margin-bottom: 2px;
+}
+
+.divider3 {
+    margin-top: 10px;
+}
+
+.submitbutton {
+    width: 200px;
+    height: 35px;
+    margin: 10px 33% 0px 33%;
+    text-align: center;
+    background-color: #3377ff;
+    color: white;
+    /*background-image: url(https://i.postimg.cc/GtTcgJRK/green-dust-scratch.png);*/
+    border: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+    .input-field {
+        width: 210px;
+    }
+  }
+
+  .question2 {
+    margin-top: 9px;
+    margin-left: -35px;
+    margin-bottom: 2px;
+}
