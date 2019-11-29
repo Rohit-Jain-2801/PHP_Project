@@ -36,5 +36,6 @@ TE-IT
     <li>auth_username=... (<b>... has to be replaced by your email</b>)</li>
     <li>auth_password=... (<b>... has to be replaced by your password</b>)</li>
   </ul>
+  <li>Run command 'composer install' in cmd inside All_Includes folder</li>
   <li>Import rentalservice.sql in localhost/phpmyadmin</li>
 </ul>
