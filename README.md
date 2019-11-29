@@ -27,6 +27,6 @@ TE-IT
     <li>display_errors=Off</li>
     <li>post_max_size=1280M</li>
     <li>upload_max_filesize=1280M</li>
-    <li>sendmail_path = "\"<path>\Xampp\sendmail\sendmail.exe\" -t"</li>
+    <li>sendmail_path = "\"..\Xampp\sendmail\sendmail.exe\" -t"</li>
   </ul>
 </ul>
