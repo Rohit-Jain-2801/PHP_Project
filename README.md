@@ -58,11 +58,13 @@ TE-IT
   <li>Mail System (using PHPMailer/SendGrid instead of PHP mail function)</li>
   <li>SMS System (using Way2SMS API)</li>
   <li>Google Login System</li>
-  <li>Payment System (using PayPal API)<li>
+  <li>Payment System (using PayPal API)</li>
+  <li>Realtime Notifications (using Pusher & toastr.js)</li>
   <li>Pretty URLs</li>
-  <p>removing .php in url by uncommenting mod_rewrite.so in Xampp/apache/conf/httpd.conf & writing rules using regular expressions in .htaccess file</p>
+  <p>removing .php in url by uncommenting mod_rewrite.so in Xampp/apache/conf/httpd.conf & creating '.htaccess' named file in our Project folder & writing rules using regular expressions in it</p>
   <li>Security Measures</li>
   <li>Breadcrumbs</li>
   <li>Pagination</li>
   <li>Animations</li>
+  <li>Admin Panel</li>
 </ul>
