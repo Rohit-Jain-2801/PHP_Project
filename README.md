@@ -14,7 +14,7 @@ TE-IT
 <br/>
 <b>Settings</b>
 <ul>
-  <li>Put all the files in the Xampp/htdocs folder</li>
+  <li>Put all the files in the Xampp/htdocs folder (Can be accessed as url: localhost/Landing_Page/home.php)</li>
   <li>Changes in my.ini file</li>
   <ul>
     <li>max_allowed_packet = 64M</li>
@@ -27,6 +27,6 @@ TE-IT
     <li>display_errors=Off</li>
     <li>post_max_size=1280M</li>
     <li>upload_max_filesize=1280M</li>
-    <li>sendmail_path = "\"..\Xampp\sendmail\sendmail.exe\" -t"</li>
+    <li>sendmail_path = "\"..\Xampp\sendmail\sendmail.exe\" -t" (.. has to be replaced by whole path)</li>
   </ul>
 </ul>
