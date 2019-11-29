@@ -2,7 +2,7 @@
 TE-IT
 
 <br/>
-<b>Project is based on E-commerce website used for renting products online!</b>
+<p><b>Project is based on E-commerce website used for renting products online!</b></p>
 <br/>
 <b>Pre-requisite-</b>
 <ul>
@@ -55,5 +55,14 @@ TE-IT
 <br/>
 <b>Future Scope</b>
 <ul>
-  <li></li>
+  <li>Mail System (using PHPMailer/SendGrid instead of PHP mail function)</li>
+  <li>SMS System (using Way2SMS API)</li>
+  <li>Google Login System</li>
+  <li>Payment System (using PayPal API)<li>
+  <li>Pretty URLs</li>
+  <p>removing .php in url by uncommenting mod_rewrite.so in Xampp/apache/conf/httpd.conf & writing rules using regular expressions in .htaccess file</p>
+  <li>Security Measures</li>
+  <li>Breadcrumbs</li>
+  <li>Pagination</li>
+  <li>Animations</li>
 </ul>
