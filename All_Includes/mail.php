@@ -67,7 +67,7 @@
         "text/html", "<strong>and easy to do anywhere, even with PHP</strong>"
     );
 
-    $sendgrid = new \SendGrid('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');
+    $sendgrid = new \SendGrid('<Key>');
     try {
         $response = $sendgrid->send($email);
         // $response = $sendgrid->client->mail()->batch()->post($email);
