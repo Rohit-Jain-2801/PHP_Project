@@ -2,6 +2,8 @@
 TE-IT
 
 <br/>
+<p>Project is based on E-commerce website used for renting products online!</p>
+<br/>
 <b>Pre-requisite-</b>
 <ul>
   <li>XAMPP Software</li>
@@ -12,7 +14,7 @@ TE-IT
   <li>Composer</li>
 </ul>
 <br/>
-<b>Settings</b>
+<b>Settings-</b>
 <ul>
   <li><b>Put all the files in the Xampp/htdocs folder</b> (Can be accessed as url: localhost/Landing_Page/home.php)</li>
   <li><b>Changes in my.ini file</b> (Can be accessed through Xampp Control Panel MySQL-Config or Xampp/mysql/bin/my.ini)</li>
@@ -38,4 +40,15 @@ TE-IT
   </ul>
   <li>Run command '<b>composer install</b>' in cmd inside All_Includes folder</li>
   <li>Import <b>rentalservice.sql</b> in localhost/phpmyadmin</li>
+</ul>
+<br/>
+<b>Features-</b>
+<ul>
+  <li>Landing Page</li>
+  <li>Registration Page</li>
+  <li>Profile Page</li>
+  <li>Categories Page</li>
+  <li>Product Page</li>
+  <li>Wishlist Page<li>
+  <li>Cart Page<li>
 </ul>
