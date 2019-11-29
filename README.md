@@ -13,3 +13,12 @@ TE-IT
 </ul>
 <br/>
 <b>Settings</b>
+<ul>
+  <li>Put all the files in the Xampp/htdocs folder</li>
+  <li>Changes in my.ini file</li>
+  <ul>
+    <li>max_allowed_packet = 64M</li>
+    <li>innodb_log_file_size = 256M</li>
+    <li>innodb_lock_wait_timeout = 500</li>
+  </ul>
+</ul>
