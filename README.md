@@ -15,13 +15,13 @@ TE-IT
 <b>Settings</b>
 <ul>
   <li>Put all the files in the Xampp/htdocs folder (<b>Can be accessed as url: localhost/Landing_Page/home.php</b>)</li>
-  <li>Changes in my.ini file (<b>Can be accessed through software Xampp Control Panel MySQL-Config or Xampp/mysql/bin/my.ini</b>)</li>
+  <li>Changes in my.ini file (<b>Can be accessed through Xampp Control Panel MySQL-Config or Xampp/mysql/bin/my.ini</b>)</li>
   <ul>
     <li>max_allowed_packet = 64M</li>
     <li>innodb_log_file_size = 256M</li>
     <li>innodb_lock_wait_timeout = 500</li>
   </ul>
-  <li>Changes in php.ini file (<b>Can be accessed through software Xampp Control Panel Apache-Config or Xampp/php/php.ini</b>)</li>
+  <li>Changes in php.ini file (<b>Can be accessed through Xampp Control Panel Apache-Config or Xampp/php/php.ini</b>)</li>
   <ul>
     <li>max_execution_time=300</li>
     <li>display_errors=Off</li>
