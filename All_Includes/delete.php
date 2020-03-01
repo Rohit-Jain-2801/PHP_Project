@@ -17,7 +17,9 @@
                 echo "<h1 class='text-center' style='margin-top: 45vh;'>Error 503!</h1>";
             } else{
                 // redirect to cart page
-                header("Location: {$z}");
+                // header_remove();
+                // header("Location: ..{$z}");
+                echo "<script type='text/javascript'> location.href='..{$z}' </script>";
             }
         } else{
             echo "<h1 class='text-center' style='margin-top: 45vh;'>Error 500!</h1>";

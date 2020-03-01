@@ -69,6 +69,8 @@
 										if(isset($_POST["uname"])){
 											$q00 = "UPDATE users SET cust_name='{$_POST["uname"]}', gender={$_POST["gender"]}, email='{$_POST["email"]}', phone={$_POST["tel"]} WHERE usr_id={$id}";
 											$r00 = mysqli_query($connection, $q00);
+										}else{
+										    $r00 = false;
 										}
 
 										// retrieving contents
@@ -116,6 +118,8 @@
 										if(isset($_POST["addr"])){
 											$q01 = "UPDATE users SET adrs='{$_POST["addr"]}', locality='{$_POST["local"]}', city='{$_POST["city"]}', pin={$_POST["pin"]}, cstate='{$_POST["state"]}' WHERE usr_id={$id}";
 											$r01 = mysqli_query($connection, $q01);
+										}else{
+										    $r01 = false;
 										}
 
 										// retrieving contents
@@ -217,7 +221,7 @@
 											<div class="card mb-3" id="shadow">
 												<div class="row no-gutters">
 													<div class="col-md-4 text-center">
-														<img src='<?php echo "data:image/jpeg;base64,".base64_encode($r4["img0"]); ?>' style="height: 150px;" />
+														<img src='<?php echo "data:image/jpeg;base64,".base64_encode($r4["img0"]); ?>' style="height: 150px; max-width: 100%;" />
 													</div>
 													<div class="col-md-8">
 														<div class="card-body py-auto">
@@ -277,7 +281,7 @@
 											<div class="card mb-4" id="shadow">
 												<div class="row no-gutters">
 													<div class="col-md-4 text-center">
-														<img src='<?php echo "data:image/jpeg;base64,".base64_encode($row5["img0"]); ?>' style="height: 150px;" />
+														<img src='<?php echo "data:image/jpeg;base64,".base64_encode($row5["img0"]); ?>' style="height: 150px; max-width: 100%;" />
 													</div>
 													<div class="col-md-8">
 														<div class="card-body py-auto">
@@ -320,7 +324,7 @@
 		</div>
 		
 		<!-- including footer -->
-		<?php include('../All_includes/footer.php'); ?>
+		<?php include('../All_Includes/footer.php'); ?>
 
 		<!-- including js cdns -->
 		<?php include('../All_Includes/btstrpjs.php'); ?>

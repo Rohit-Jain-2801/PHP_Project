@@ -94,6 +94,13 @@
                             $query1 = "UPDATE product SET cid={$execute0}, tags='{$tags}', pname='{$pname}', descript='{$description}', price={$price}, date1='{$date1}', date2='{$date2}'".$app_str." WHERE pid={$_POST['gpid']}"; 
                         }
                         $execute1 = mysqli_query($connection, $query1);
+                        if($execute1){
+                            echo "<script type='text/javascript'> alert('Product Successfully Submitted! You will be redirected to your profile.'); </script>";
+                            // header("Location: ../UserProfile_Page/profile.php");
+                            echo "<script type='text/javascript'> location.href='../UserProfile_Page/profile.php'; </script>";
+                        }else{
+                            echo "<script type='text/javascript'> alert('Error occurred while uploading on server!'); </script>";
+                        }
                     }
         ?>
 
