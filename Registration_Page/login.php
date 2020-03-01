@@ -28,9 +28,9 @@
 					<?php
 						if(!isset($_SESSION)){
 							session_start();
-							if(!isset($_SESSION['pg'])){
-								$_SESSION['pg'] = 2;
-							}
+						}
+						if(!isset($_SESSION['pg'])){
+							$_SESSION['pg'] = 2;
 						}
 
 						if($connection){
