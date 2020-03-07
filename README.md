@@ -71,6 +71,7 @@ TE-IT
 <br/>
 <b>References-</b>
 <ul>
-  <li>https://medium.com/@michaeltendossemwanga/import-mysql-database-to-heroku-with-one-command-import-db-sql-a932d720c82b</li>
-  <li>https://scotch.io/@phalconVee/deploying-a-php-and-mysql-web-app-with-heroku</li>
+  <li><a href=https://medium.com/@michaeltendossemwanga/import-mysql-database-to-heroku-with-one-command-import-db-sql-a932d720c82b>Import MySQL database to Heroku with one command… import db.sql</a></li>
+  <li><a href=https://scotch.io/@phalconVee/deploying-a-php-and-mysql-web-app-with-heroku>Deploying a PHP and MySQL Web App with Heroku</a></li>
+  <li><a href=></a></li>
 </ul>
